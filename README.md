@@ -12,8 +12,8 @@ Aplicacion creada durante el curso de Proyecto Aplicado 2026-01
 
 # 2. Definición del Negocio
 Ariela Motor es un negocio real que se dedica a la venta al detalle de piezas para motocicletas y pasolas.
-⚠️ El Problema: Problemas al manejar el inventario
-💡 La Solución Propuesta: Un sistema de gestión de inventario con facturacion
+- ⚠️ **El Problema:** Problemas al manejar el inventario
+- 💡 **La Solución Propuesta:** Un sistema de gestión de inventario con facturacion
 
 # 3. Alcance del Proyecto (Scope)
 ✅ Dentro del Alcance (MVP)
@@ -38,5 +38,6 @@ Ariela Motor es un negocio real que se dedica a la venta al detalle de piezas pa
 | 05 | Cuadre | El usuario podrá realizar cuadres de ventas diarios | Media |
 
 🛡️ Requerimientos No Funcionales (RNF)
-- Seguridad: Las contraseñas no seran encriptadas
+- 
+- 
 - 
