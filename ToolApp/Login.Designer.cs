@@ -28,12 +28,123 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            textBox1 = new TextBox();
+            textBox2 = new TextBox();
+            button1 = new Button();
+            button2 = new Button();
+            pictureBox1 = new PictureBox();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            SuspendLayout();
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(78, 297);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(190, 23);
+            textBox1.TabIndex = 0;
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(78, 360);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(190, 23);
+            textBox2.TabIndex = 1;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.ForestGreen;
+            button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            button1.ForeColor = Color.Azure;
+            button1.Location = new Point(121, 409);
+            button1.Name = "button1";
+            button1.Size = new Size(105, 45);
+            button1.TabIndex = 2;
+            button1.Text = "INGRESAR";
+            button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.IndianRed;
+            button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            button2.ForeColor = Color.Azure;
+            button2.Location = new Point(121, 460);
+            button2.Name = "button2";
+            button2.Size = new Size(105, 45);
+            button2.TabIndex = 3;
+            button2.Text = "SALIR";
+            button2.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Location = new Point(78, 65);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(190, 190);
+            pictureBox1.TabIndex = 4;
+            pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Palatino Linotype", 14F);
+            label1.Location = new Point(46, 36);
+            label1.Name = "label1";
+            label1.Size = new Size(254, 26);
+            label1.TabIndex = 5;
+            label1.Text = "BIENVENIDO A TOOLAPP";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(78, 279);
+            label2.Name = "label2";
+            label2.Size = new Size(109, 15);
+            label2.TabIndex = 6;
+            label2.Text = "Nombre de usuario";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(78, 342);
+            label3.Name = "label3";
+            label3.Size = new Size(67, 15);
+            label3.TabIndex = 7;
+            label3.Text = "Contraseña";
+            // 
+            // Login
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Text = "Form1";
+            ClientSize = new Size(346, 531);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(pictureBox1);
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Controls.Add(textBox2);
+            Controls.Add(textBox1);
+            FormBorderStyle = FormBorderStyle.None;
+            MaximizeBox = false;
+            Name = "Login";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "ToolApp | Iniciar Sesion";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private TextBox textBox1;
+        private TextBox textBox2;
+        private Button button1;
+        private Button button2;
+        private PictureBox pictureBox1;
+        private Label label1;
+        private Label label2;
+        private Label label3;
     }
 }
